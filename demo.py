@@ -12,10 +12,11 @@ import streamlit as st
 # ======================================================
 # CONFIGURATION
 # ======================================================
-FILE_PATH = r"/Users/zymberg/Desktop/Nuvora/retail_sales_demo.csv"
+FILE_PATH = "retail_sales_demo.csv"
+
 SALES_COL = "ECC_SALES_USD"
 
-logo = Image.open("/Users/zymberg/Desktop/Nuvora/1.png")
+logo = Image.open("1.png")
 
 st.set_page_config(
     page_title="Nuvora | Retail Intelligence",
@@ -592,3 +593,4 @@ with tab3:
 # WATERMARK
 # ======================================================
 st.markdown("<div class='watermark'>Nuvora</div>", unsafe_allow_html=True)
+
