@@ -153,7 +153,7 @@ def plot_style(fig):
 # ----------------------------------------------------------
 
 # Load logo
-logo = Image.open("/Users/zymberg/Desktop/Nuvora/1.png")
+logo = Image.open("1.png")
 
 st.sidebar.image(logo, use_container_width=True)
 
