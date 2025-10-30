@@ -1,0 +1,1 @@
+# nuvora_retail_intel
